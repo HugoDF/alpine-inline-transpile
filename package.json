@@ -1,6 +1,6 @@
 {
   "name": "alpine-inline-transpile",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Transpile inline Alpine.js directive code",
   "main": "alpine-inline-transpile.js",
   "files": [

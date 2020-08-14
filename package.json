@@ -1,16 +1,39 @@
 {
-  "private": true,
+  "name": "alpine-inline-transpile",
+  "version": "0.0.1",
+  "description": "Transpile inline Alpine.js directive code",
+  "main": "alpine-inline-transpile.js",
+  "files": [
+    "alpine-inline-transpile.js"
+  ],
   "scripts": {
+    "test": "uvu -r esm tests",
     "lint": "xo .",
-    "format": "xo . --fix"
+    "fmt": "xo . --fix",
+    "release": "np"
   },
   "devDependencies": {
-    "xo": "latest"
+    "esm": "^3.2.25",
+    "np": "^6.3.2",
+    "posthtml": "^0.13.1",
+    "uvu": "^0.3.0",
+    "xo": "^0.32.1"
+  },
+  "peerDependencies": {
+    "posthtml": "^0.13.1"
+  },
+  "dependencies": {
+    "@swc/core": "^1.2.19"
   },
   "xo": {
     "prettier": true,
     "space": true,
     "globals": []
   },
+  "keywords": [],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "author": "Hugo Di Francesco",
   "license": "MIT"
 }

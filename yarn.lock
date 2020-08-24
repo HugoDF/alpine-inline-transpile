@@ -124,9 +124,9 @@
   integrity sha512-/aPsuoj/1Dw/kzhkgz+ES6TxG0zfTMGLwuK2ZG00k/iJzYHTLCE8mVU8EPqEOp/lmxPoq1C1C9RYToRKb2KEfg==
 
 "@swc/core@^1.2.19":
-  version "1.2.20"
-  resolved "https://registry.yarnpkg.com/@swc/core/-/core-1.2.20.tgz#85caf231372630cb1c1de9d6b32ec9f808a4e010"
-  integrity sha512-m32hJGQ7zL4rMTG5TzYCJ8hJibg7KLZ1bD5F/HH/fGRPrdPBUGUTtKe8p3f+2gaGf3J07IYaYS4s7uZtmWnRqw==
+  version "1.2.21"
+  resolved "https://registry.yarnpkg.com/@swc/core/-/core-1.2.21.tgz#53bbd434d72525404eaca2cec1c7035d8854b7fd"
+  integrity sha512-nc/eds/v8lu4+CD3UskiFD6B5wHRL1a5IJcJywJbSQBsL/nwjvsNdZMwLCwJbOOxrPi6ImRerx0hXjcFssu3dQ==
   dependencies:
     mkdirp "^0.5.1"
     node-fetch "^2.6.0"

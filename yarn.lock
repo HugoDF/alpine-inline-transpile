@@ -101,10 +101,10 @@
     call-me-maybe "^1.0.1"
     glob-to-regexp "^0.3.0"
 
-"@node-rs/helper@^0.3.1":
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/@node-rs/helper/-/helper-0.3.1.tgz#605d3fafb344a4b7b664236c9219ac3e1d72361b"
-  integrity sha512-3X6SJOcyFRYv1mjrjtSHiziJuzAsqaz2pFD3uuLxu4qJo4TH6H0gaUb1Bdxl/VtiDy2yR+eMyBOQFCvr/G2oLA==
+"@node-rs/helper@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@node-rs/helper/-/helper-0.4.0.tgz#deec7d95aafa90535980a51cbd5336b8bbefe93a"
+  integrity sha512-fSyHEXmlt/FueKqAYiGFCnkohnQBMQwUr6VYPeZEeVBAzQzhioS1WaRe2fSpOuRKIimCQEvxhQ6fwsYxYakfGA==
   dependencies:
     tslib "^2.0.1"
 
@@ -130,31 +130,31 @@
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-2.1.1.tgz#ceff6a28a5b4867c2dd4a1ba513de278ccbe8bb1"
   integrity sha512-/aPsuoj/1Dw/kzhkgz+ES6TxG0zfTMGLwuK2ZG00k/iJzYHTLCE8mVU8EPqEOp/lmxPoq1C1C9RYToRKb2KEfg==
 
-"@swc/core-darwin@^1.2.22":
-  version "1.2.22"
-  resolved "https://registry.yarnpkg.com/@swc/core-darwin/-/core-darwin-1.2.22.tgz#0806e0eab536e9ee17ff163a2da6acd6941f4370"
-  integrity sha512-sb30T3TN4X0Pc9yvRd52sQltqSfhdoiI3ItGBNm5JbHa4a9/0Ej5SRm5iMT/39T4GlLCh23NfQzdCc0bpX8PEg==
+"@swc/core-darwin@^1.2.28":
+  version "1.2.28"
+  resolved "https://registry.yarnpkg.com/@swc/core-darwin/-/core-darwin-1.2.28.tgz#afda15d4d270cbff4bde5fcd61276ef0f80e113f"
+  integrity sha512-y1zNWliaMlLUuZw3DEve41M0h+b9Gw+LRfOAs6HW+eVdidHb7M08fpMoSczVlGMwsCd+yzWff4/onjhY4s+ppg==
 
-"@swc/core-linux@^1.2.22":
-  version "1.2.22"
-  resolved "https://registry.yarnpkg.com/@swc/core-linux/-/core-linux-1.2.22.tgz#17ad562f56739ee0981f3e1adae090e89d046295"
-  integrity sha512-UvJKAzYBTh3sVF1mcCWd8CVgwxGhUtDlKHstHSQaJWk0RgIExEVPbOL3NbR/2zpKhcKiHYmadNeK8PlLcE3nig==
+"@swc/core-linux@^1.2.28":
+  version "1.2.28"
+  resolved "https://registry.yarnpkg.com/@swc/core-linux/-/core-linux-1.2.28.tgz#decadee74cb6b2e48049ae93b6128099029ab44e"
+  integrity sha512-Zlyt7PTIyT4I4ARZWhfEThL+Ge8lN6IygHo3NqNuu5I6icIJa4c/LLzExML6YgeIA5Rg6Sjprsb84ETEc3Lx/A==
 
-"@swc/core-win32@^1.2.22":
-  version "1.2.22"
-  resolved "https://registry.yarnpkg.com/@swc/core-win32/-/core-win32-1.2.22.tgz#cd768770a84c5ff23ab6ce55e11b2ae32ae2f00e"
-  integrity sha512-/s6kDhaPPuemVhN9e2CQ7LobknKnkyFMMzYQTRQCmZv32/jtzYvDigGQeLY/h40SRed98n4x9pWFWQPwozO/xQ==
+"@swc/core-win32@^1.2.28":
+  version "1.2.28"
+  resolved "https://registry.yarnpkg.com/@swc/core-win32/-/core-win32-1.2.28.tgz#f5551da7e72e5cb21672ed845f7dd392cb2a6638"
+  integrity sha512-ryFMUdekRGVAZ8/MnjSFR1NG+sYtAVLvEyobSvgtMjpyPKj8rR3JWLv3otS1Kq1igIyJK2Cp6FIoN/MrTtY81g==
 
 "@swc/core@^1.2.19":
-  version "1.2.22"
-  resolved "https://registry.yarnpkg.com/@swc/core/-/core-1.2.22.tgz#904a0739ff6e792df96c4160149d28527324fd8c"
-  integrity sha512-nUqduqSiH5u97PGmYuUzUQBnOJq/QFu7yDPTMT3jwZqbNMV+/cB/UW/4b4Kl4yhOuOMZjktyw6N0N8VmGRqp1w==
+  version "1.2.28"
+  resolved "https://registry.yarnpkg.com/@swc/core/-/core-1.2.28.tgz#5418341a70e53cd3d0cab2a0fdb91bd30b56e447"
+  integrity sha512-qAnHHJBu1I3Ch6Gfcqaa+zB3q9u0Mo9m714qPNFC3EXx9FbNrb8DInCU+MKGi1yFnzQ3bk+bLEEmUTcLw0wy4g==
   dependencies:
-    "@node-rs/helper" "^0.3.1"
+    "@node-rs/helper" "^0.4.0"
   optionalDependencies:
-    "@swc/core-darwin" "^1.2.22"
-    "@swc/core-linux" "^1.2.22"
-    "@swc/core-win32" "^1.2.22"
+    "@swc/core-darwin" "^1.2.28"
+    "@swc/core-linux" "^1.2.28"
+    "@swc/core-win32" "^1.2.28"
 
 "@szmarczak/http-timer@^1.1.2":
   version "1.1.2"

@@ -15,12 +15,12 @@
   "devDependencies": {
     "esm": "^3.2.25",
     "np": "^7.0.0",
-    "posthtml": "^0.13.1",
+    "posthtml": "^0.14.0",
     "uvu": "^0.4.0",
     "xo": "^0.34.0"
   },
   "peerDependencies": {
-    "posthtml": "^0.13.1"
+    "posthtml": "^0.14.0"
   },
   "dependencies": {
     "@swc/core": "^1.2.19"

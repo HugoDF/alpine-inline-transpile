@@ -1,7 +1,7 @@
 import {test} from 'uvu';
 import * as assert from 'uvu/assert';
-import run from './run';
-import {showHide, arrowFuncNoThis, arrowFuncThis} from './fixtures';
+import run from './run.js';
+import {showHide, arrowFuncNoThis, arrowFuncThis} from './fixtures.js';
 
 test('defaults to IE11', async () => {
   assert.equal(await run(showHide), await run(showHide, {target: 'es5'}));

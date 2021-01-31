@@ -1,7 +1,7 @@
 import {test} from 'uvu';
 import * as assert from 'uvu/assert';
-import run from './run';
-import {showHide} from './fixtures';
+import run from './run.js';
+import {showHide} from './fixtures.js';
 
 test('simple toggle', async () => {
   assert.snapshot(
